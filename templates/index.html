@@ -7,7 +7,7 @@
 </head>
 <body>
    <h1>Food Forest Planner</h1>
-   <form id="length_width">
+   <form id="length_width" action="{{url_for("index")}}" method="post">
 
     <div class="form-group">
       <label for="length_field">Length :</label>
@@ -19,6 +19,7 @@
         <input type="text" id="width_field" name="width_field">
       </div>
 
+      <button type="submit">Submit</button>
   </form>
   <script src="script.js"></script>
 </body>
