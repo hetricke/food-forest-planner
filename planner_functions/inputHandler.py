@@ -15,4 +15,11 @@ def cleanInput(width, length):
 
     return w, l
 
-def plotGarden()
+def plotGarden():
+    return None
+
+def getPlants():
+    return None
+
+def plantTokenGenerator():
+    return None
